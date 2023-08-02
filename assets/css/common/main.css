@@ -66,3 +66,40 @@ div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
 }
+
+.contact-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-form label {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  

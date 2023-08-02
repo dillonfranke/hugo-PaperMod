@@ -58,15 +58,15 @@
 }
 
 .post-content h4 {
-    font-size: 16px;
+    font-size: 19px;
 }
 
 .post-content h5 {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .post-content h6 {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .post-content a,
@@ -172,6 +172,7 @@
 
 .post-content .highlight pre {
     margin: 0;
+    white-space: pre-wrap;
 }
 
 .post-content .highlighttable {
@@ -250,7 +251,7 @@
 
 .post-content figure > figcaption > p {
     color: var(--secondary);
-    font-size: 14px;
+    font-size: 17px;
     font-weight: normal;
 }
 
